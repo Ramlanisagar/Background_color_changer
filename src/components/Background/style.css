@@ -1,0 +1,28 @@
+.back-container{
+width: 100%;
+height: 100vh;
+
+/*centering style*/
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: yellow ;
+}
+
+.color-box{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border : 2px black solid;
+
+    /*centering style*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    
+    }
